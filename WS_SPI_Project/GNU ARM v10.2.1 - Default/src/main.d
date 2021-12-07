@@ -1,0 +1,183 @@
+src/main.o: ../src/main.c \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\common\toolchain\inc\sl_gcc_preinclude.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/main.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\em_device.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p332f1024gl125.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\cmsis\include\core_cm4.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\cmsis\include\cmsis_version.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\cmsis\include\cmsis_compiler.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\cmsis\include\cmsis_gcc.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\cmsis\include\mpu_armv7.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\system_efr32mg12p.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_msc.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_emu.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_rmu.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_cmu.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_crypto.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_gpio_p.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_gpio.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_prs_ch.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_prs.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_ldma_ch.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_ldma.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_fpueh.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_gpcrc.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_timer_cc.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_timer.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_usart.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_leuart.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_letimer.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_cryotimer.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_pcnt.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_i2c.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_adc.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_acmp.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_idac.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_vdac_opa.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_vdac.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_csen.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_lesense_st.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_lesense_buf.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_lesense_ch.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_lesense.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_rtcc_cc.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_rtcc_ret.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_rtcc.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_wdog_pch.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_wdog.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_etm.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_smu.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_trng.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_dma_descriptor.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_devinfo.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_romtable.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_prs_signals.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_dmareq.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_af_ports.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_af_pins.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_chip.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_common.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_assert.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_system.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_gpio.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_bus.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_core.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\autogen/sl_component_catalog.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\config/emlib_core_debug_config.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_emu.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_assert.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/app.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_cmu.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_cmu_compat.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/cmu.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/gpio.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_gpio.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/brd_config.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/letimer.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_letimer.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/scheduler.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/sleep_routines.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_core.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/LEDs_thunderboard.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/Si1133.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_i2c.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/HW_delay.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_timer.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/i2c.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/ble.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/leuart.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_leuart.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/ICM.h \
+ c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_usart.h \
+ C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/spi.h
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\common\toolchain\inc\sl_gcc_preinclude.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/main.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\em_device.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p332f1024gl125.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\cmsis\include\core_cm4.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\cmsis\include\cmsis_version.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\cmsis\include\cmsis_compiler.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\cmsis\include\cmsis_gcc.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\cmsis\include\mpu_armv7.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\system_efr32mg12p.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_msc.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_emu.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_rmu.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_cmu.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_crypto.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_gpio_p.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_gpio.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_prs_ch.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_prs.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_ldma_ch.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_ldma.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_fpueh.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_gpcrc.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_timer_cc.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_timer.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_usart.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_leuart.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_letimer.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_cryotimer.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_pcnt.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_i2c.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_adc.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_acmp.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_idac.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_vdac_opa.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_vdac.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_csen.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_lesense_st.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_lesense_buf.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_lesense_ch.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_lesense.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_rtcc_cc.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_rtcc_ret.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_rtcc.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_wdog_pch.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_wdog.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_etm.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_smu.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_trng.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_dma_descriptor.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_devinfo.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_romtable.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_prs_signals.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_dmareq.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_af_ports.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\device\siliconlabs\efr32mg12p\include\efr32mg12p_af_pins.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_chip.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_common.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_assert.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_system.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_gpio.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_bus.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_core.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\autogen/sl_component_catalog.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\config/emlib_core_debug_config.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_emu.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_assert.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/app.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_cmu.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_cmu_compat.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/cmu.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/gpio.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_gpio.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/brd_config.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/letimer.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_letimer.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/scheduler.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/sleep_routines.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_core.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/LEDs_thunderboard.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/Si1133.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_i2c.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/HW_delay.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_timer.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/i2c.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/ble.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/leuart.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_leuart.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/ICM.h:
+c:\siliconlabs\simplicitystudio\v5\developer\sdks\gecko_sdk_suite\v3.2\platform\emlib\inc\em_usart.h:
+C:\Users\wills\SimplicityStudio\v5_workspace\WS_SPI_Project\src\Header\ Files/spi.h:
